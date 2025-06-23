@@ -1,0 +1,111 @@
+header .navbar {
+  background-color: #28A745 !important ;
+}
+
+header a {
+  color: #fff !important;;
+}
+
+/* Modificacion Card */
+.card {
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal !important;
+}
+
+.card-img-top {
+  border-radius: 0 !important;
+}
+
+.card p { 
+  color: #212529 !important;
+  font-weight: 300 !important;
+  font-size: 1.5rem !important;
+  padding: -4rem auto;
+  line-height: 1.8rem;
+}
+
+.card h3 {
+  color: #707070 !important;
+  font-weight: 300 !important;
+  font-size: 1rem !important;
+  line-height: 0.6rem;
+}
+
+.card-address {
+  color: #707070 !important;
+  font-weight: 300 !important;
+  font-size: 0.9rem !important;
+}
+
+.fa-solid {
+  color: #707070 !important;
+}
+
+.precio {
+  font-weight: 300 !important;
+  color: #707070 !important;
+  font-size: 1.1rem !important;
+  
+}
+
+.card h4 {
+  font-weight: 500 !important;
+  color: #28A745 !important;
+  font-size: 1.5rem !important;
+}
+
+
+/* Seccion formulario */
+.secc-contact {
+  background-color: #28A745;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.form-control::placeholder {
+  color: #707070 !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.btn-light {
+  background-color: #DDDDDD;
+}
+
+
+/* Se aplica de 425 hacia abajo */
+@media (max-width: 425px) {
+
+  header img {
+    max-width: 6.5rem;
+  }
+
+  footer img {
+    max-width: 6.5rem;
+  }
+
+}
+
+.logo-negro {
+  display: flex; 
+  justify-content:center; 
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+/* Se aplica de 426 hacia arriba */
+@media (min-width: 426px) {
+
+  header img {
+    max-width: 10rem;
+  }
+
+  footer img {
+    max-width: 10em;
+  }
+
+  .card-body {
+    height: 18rem !important;
+  }
+}
